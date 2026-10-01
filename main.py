@@ -5,6 +5,7 @@ import jwt
 import bcrypt
 import psycopg2
 from psycopg2.extras import RealDictCursor
+from fastapi.security import OAuth2PasswordBearer
 
 app = FastAPI(title="JWT Authentication API")
 
